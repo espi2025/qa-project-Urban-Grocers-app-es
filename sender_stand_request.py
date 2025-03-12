@@ -16,16 +16,6 @@ def create_kit(kit_body,auth_thoken):
                         headers = headers
                         )
 
-print('post new user')
-new_user = post_new_user(data.user_body)
-new_user_token =new_user.json()['authToken']
-print(new_user_token)
-
-print(data.headers)
-print('post kit for user')
-new_kit =post_new_user(data.kit_body.copy())
-print(new_kit.json())
-
 
 
 

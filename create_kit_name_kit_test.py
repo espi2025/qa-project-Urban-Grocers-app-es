@@ -1,6 +1,12 @@
 import data
 import sender_stand_request
 
+# Función para cambiar el valor del parámetro name en el cuerpo de la solicitud
+def get_kit_body(name):
+    current_body = data.kit_body.copy()
+    current_body["name"] = name
+    return current_body
+
 def positive_assert(kit_body):
     new_user = sender_stand_request.post_new_user(data.user_body)
     token = new_user.json().get('authToken')
