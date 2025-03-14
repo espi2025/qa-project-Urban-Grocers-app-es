@@ -35,3 +35,5 @@ Pytest, un marco de trabajo diseñado para realizar pruebas unitarias en softwar
 En cuanto a las técnicas utilizadas, se optó por organizar el código en distintos archivos para mejorar 
 su estructura y claridad. 
 
+
+
